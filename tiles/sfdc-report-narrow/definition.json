@@ -1,0 +1,16 @@
+{
+    "config": "/sfdc-report-wide/config?type=narrow",
+    "displayName": "Salesforce Report Narrow",
+    "name": "sfdc-report-narrow",
+    "description": "Salesforce Report Narrow",
+    "style": "CUSTOM_VIEW",
+    "displayWidth": "NARROW",
+    "defaultConfigShared": "MAY",
+    "view": "/sfdc-report-wide/view?type=narrow",
+    "action": "/sfdc-report-wide/action?type=narrow",
+    "dataProviderKey": "external",
+    "icons": {
+        "16": "%serviceURL%/images/report-16.png",
+        "48": "%serviceURL%/images/report-48.png"
+    }
+}

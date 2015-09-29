@@ -1,0 +1,21 @@
+div {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5E5E5E;
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#sfdc-link {
+    font-size: 13px;
+    color: #367DA6;
+    text-decoration: none;
+}
+
+#sfdc-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+Downloaded from http://www.trirand.com/blog/?page_id=6 with modules:
+
+Base:
+- grid base
+- formatter
+- custom
+
+Editing
+- Common (this is needed for toolbar search)
+
+Grouping
+- Grouping
+
+jQuery UI addon methods
+- Additional methods

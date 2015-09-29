@@ -1,0 +1,16 @@
+{
+    "config": "/sfdc-report-wide/config?type=wide",
+    "displayName": "Salesforce Report Wide",
+    "name": "sfdc-report-wide",
+    "description": "Salesforce Report Wide",
+    "style": "CUSTOM_VIEW",
+    "displayWidth": "WIDE",
+    "defaultConfigShared": "MAY",
+    "view": "/sfdc-report-wide/view?type=wide",
+    "action": "/sfdc-report-wide/action?type=wide",
+    "dataProviderKey": "external",
+    "icons": {
+        "16": "%serviceURL%/images/report-16.png",
+        "48": "%serviceURL%/images/report-48.png"
+    }
+}

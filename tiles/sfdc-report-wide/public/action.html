@@ -1,0 +1,24 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/sfdc-report-wide/stylesheets/action.css"/>
+    <script>
+        var SERVICE_BASE_URL = "{{{host}}}";
+        var TILE_TYPE = "{{{type}}}";
+    </script>
+    <script src="{{{host}}}/sfdc-report-wide/javascripts/action.js"></script>
+</head>
+
+<body>
+    <div>
+        <label>Description: </label><span id="description"></span>
+    </div>
+    <div>
+        <label>Last refreshed in Jive: </label><span id="last-refresh"></span>
+    </div>
+    <div>
+        <label>Last modified in Salesforce: </label><span id="report-modified"></span>
+    </div>
+    <div>
+        <a id="sfdc-link" target="_blank" href="#">View in Salesforce</a>
+    </div>
+</body>

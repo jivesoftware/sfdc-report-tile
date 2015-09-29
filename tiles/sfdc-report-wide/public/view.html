@@ -1,0 +1,28 @@
+<html>
+<head>
+    <!-- jqGrid uses styles from jquery ui -->
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/stylesheets/redmond/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/stylesheets/ui.jqgrid.css"/>
+    <link rel="stylesheet" type="text/css" href="{{{host}}}/sfdc-report-wide/stylesheets/view.css"/>
+    <script src="{{{host}}}/javascripts/q.js"></script>
+    <script src="{{{host}}}/javascripts/grid.locale-en.js"></script>
+    <script src="{{{host}}}/javascripts/jquery.jqGrid.min.js"></script>
+    <script>
+        var SERVICE_BASE_URL = "{{{host}}}";
+        var TILE_TYPE = "{{{type}}}";
+    </script>
+    <script src="{{{host}}}/sfdc-report-wide/javascripts/view.js"></script>
+</head>
+
+<body>
+    <img class="activity-load" src="{{{host}}}/images/activity-48.gif" height="48" width="48" alt="loading"/>
+    <div id="error" style="display: none;">
+    </div>
+    <div id="grid-container" style="display: none;">
+        <table id="grid">
+        </table>
+        <div>
+            <a id="report-info-link" href="#">View report info</a>
+        </div>
+    </div>
+</body>

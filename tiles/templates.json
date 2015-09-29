@@ -1,0 +1,11 @@
+{
+    "default": {
+        "name": "defaultTemplate",
+        "displayName": "Salesforce Report Tile",
+        "description": "Sample for Salesforce Report Tile",
+        "tiles": [
+            "sfdc-report-narrow",
+            "sfdc-report-wide"
+        ]
+    }
+}

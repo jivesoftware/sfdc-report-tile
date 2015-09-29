@@ -1,0 +1,19 @@
+{
+    "name": "sfdc-report-tile",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "3.1.0",
+        "jive-sdk": "*",
+        "mustache" : "*",
+        "consolidate" : "*",
+        "poplib" : "*",
+        "q" : "*",
+        "multipart-parser" : "*",
+        "q-io": "1.6.x",
+        "zlib": "*"
+    }
+}

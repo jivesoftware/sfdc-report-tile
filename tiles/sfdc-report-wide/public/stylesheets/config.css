@@ -1,0 +1,136 @@
+div.controls {
+    margin-top: 15px;
+    margin-bottom: 3px;
+}
+
+#j-card-configuration {
+    min-height: 400px;
+}
+
+#selected-report {
+    background-color: #F2F8FF;
+    padding: 8px;
+    border: 1px solid #EEE;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+#selected-report:hover #select-report-link {
+    text-decoration: underline;
+}
+
+#select-report-link {
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+
+#report-name {
+    font-weight: bold;
+    color: #5E5E5E;
+}
+
+#report-sfdc-link {
+    font-size: 10px;
+    font-style: italic;
+}
+
+#report-dialog {
+    background-color: #FFF;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5E5E5E;
+}
+
+.report-dialog label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.report-dialog .ui-dialog-titlebar {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#recent-reports {
+    margin-top: 10px;
+}
+
+#recent-list {
+    list-style: none;
+    margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#recent-list a {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #2989C5;
+    cursor: pointer;
+}
+
+#recent-list a:hover {
+    text-decoration: underline;
+}
+
+#search-input {
+    width: 100%;
+    height: 30px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #5E5E5E;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+#no-results {
+    float: right;
+    font-size: 11px;
+    font-style: italic;
+    color: #5E5E5E;
+}
+
+#search-activity-icon {
+    float: right;
+    margin-top: 3px;
+}
+
+/* fix the height of autocomplete results in embedded search so that user can see all results */
+.ui-autocomplete {
+    max-height: 250px;
+    /*max-width: 300px;*/
+    width: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.ui-menu-item {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.ui-autocomplete li.ui-state-focus {
+    font-weight: normal;
+}
+
+.custom-item-metadata {
+    font-size: 0.7em;
+    color: #575757;
+    line-height: 1;
+}
+
+#error {
+    padding: 5px 5px 5px 35px;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #575757;
+    background: #f3e1dd url('/images/red_bang.png') center no-repeat;
+    background-position: 10px 50%;
+    border: 1px solid #ee9581;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
